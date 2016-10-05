@@ -1,0 +1,16 @@
+{
+    "gitbook": ">=3.1.1",
+    "title": "Ponniyin Selvan",
+    "plugins": ["search", "-lunr", "-fontsettings", "-sharing"],
+    "structure": {
+        "readme": "README.md"
+    },
+    "language": "ta",
+    "author": "Kalki R Krishnamurthy",
+    "description": "Ponniyin Selvan Historic Novel",
+    "pluginsConfig": {
+        "lunr": {
+            "maxIndexSize": 200000
+        }
+    }
+}
