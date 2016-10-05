@@ -1,16 +1,30 @@
 {
-    "gitbook": ">=3.1.1",
-    "title": "Ponniyin Selvan",
-    "plugins": ["search", "-lunr", "-fontsettings", "-sharing"],
-    "structure": {
-        "readme": "README.md"
-    },
-    "language": "ta",
-    "author": "Kalki R Krishnamurthy",
-    "description": "Ponniyin Selvan Historic Novel",
+    "plugins": [
+        "search",
+        "lunr",
+        "fontsettings",
+        "sharing",
+        "ga",
+        "back-to-top-button",
+        "edit-link",
+        "-highlight"
+    ],
     "pluginsConfig": {
         "lunr": {
             "maxIndexSize": 200000
+        },
+        "ga": {
+            "token": "UA-2129166-4",
+            "configuration": "auto"
+        },
+        "edit-link": {
+            "base": "https://github.com/Ponniyin-Selvan/novel/edit/master/path/to/book",
+            "label": "Edit This Page"
         }
-    }
+    },
+    "author": "Kalki R Krishnamurthy",
+    "title": "Ponniyin Selvan",
+    "language": "ta",
+    "gitbook": ">=3.1.1",
+    "description": "Ponniyin Selvan Historic Novel"
 }
