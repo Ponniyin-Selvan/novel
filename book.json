@@ -18,7 +18,7 @@
             "configuration": "auto"
         },
         "edit-link": {
-            "base": "https://github.com/Ponniyin-Selvan/novel/edit/master/path/to/book",
+            "base": "https://github.com/Ponniyin-Selvan/novel/edit/master",
             "label": "Edit This Page"
         }
     },
