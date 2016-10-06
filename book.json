@@ -1,12 +1,11 @@
 {
     "plugins": [
         "search",
-        "lunr",
+        "algolia",
         "fontsettings",
         "sharing",
         "ga",
         "back-to-top-button",
-        "edit-link",
         "-highlight"
     ],
     "pluginsConfig": {
@@ -17,14 +16,16 @@
             "token": "UA-2129166-4",
             "configuration": "auto"
         },
-        "edit-link": {
-            "base": "https://github.com/Ponniyin-Selvan/novel/edit/master",
-            "label": "Edit This Page"
+        "algolia": {
+            "index": "PSVP",
+            "applicationID": "O49CCAG3UW",
+            "publicKey": "5795a0605d130dd51a759bf37d6b94ce",
+            "freeAccount": "true"
         }
     },
-    "author": "Kalki R Krishnamurthy",
-    "title": "Ponniyin Selvan",
+    "author": "கல்கி கிருஷ்ணமூர்த்தி",
+    "title": "பொன்னியின் செல்வன்",
     "language": "ta",
     "gitbook": ">=3.1.1",
-    "description": "Ponniyin Selvan Historic Novel"
+    "description": "பொன்னியின் செல்வன் வரலாற்றுப் புதினம்"
 }
